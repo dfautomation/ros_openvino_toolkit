@@ -96,7 +96,7 @@ sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/emotions-recognition/FP
 sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/emotions-recognition/FP32/emotions-recognition-retail-0003.labels intel/emotions-recognition-retail-0003/FP16/
 sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/face_detection/face-detection-adas-0001.labels intel/face-detection-adas-0001/FP16/
 sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/object_detection/vehicle-license-plate-detection-barrier-0106.labels public/vehicle-license-plate-detection-barrier-0123/FP16/
-sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/object_detection/mobilenet-ssd.labels public/ssd_mobilenet_v2_coco/FP16/
+sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/object_detection/ssd_mobilenet_v2_coco.labels public/ssd_mobilenet_v2_coco/FP16/
 sudo cp ~/catkin_ws/src/ros_openvino_toolkit/data/labels/object_segmentation/frozen_inference_graph.labels public/deeplabv3/FP16/
 mv public/deeplabv3/FP16/frozen_inference_graph.labels  public/deeplabv3/FP16/deeplabv3.labels
 ```
